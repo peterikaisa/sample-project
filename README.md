@@ -1,24 +1,11 @@
-# sample-project
+# A small, general, sample project for prototyping
 
-## Project setup
-```
-npm install
-```
+Sample project created with `vue create` from [Vue CLI](https://cli.vuejs.org/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Running locally
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Setup repository with `npm install`, then run a dev server with `npm run serve`. Build for production with `npm run build`.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Running in Docker
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Includes a Dockerfile for running the app with an nginx proxy.
